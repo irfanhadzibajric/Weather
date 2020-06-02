@@ -10,7 +10,7 @@ Datum izrade: 12.05.2020.g.
 Naziv predmeta: Razvoj mobilnih aplikacija  
 Ime profesora: doc.dr. Damir Omerašević  
 ### BAZA PODATAKA  
-Prije pokretanja same aplikacije potrebno je kreirati shemu baze podataka pod nazivom users na serveru.  
+Prije pokretanja same aplikacije potrebno je kreirati shemu baze podataka pod nazivom users na serveru. Nakon toga potrebno je importovati users.sql u tu shemu.  
  
 ### KOMUNIKACIJA IZMEĐU BAZE I APLIKACIJE  
 Komunikacija baze i aplikacije omogućena je pomoću php-a. U našem slučaju koriste se tri php fajla. Sva tri php fajla potrebno je spremiti u HTDOCS folder, ukoliko koristite XAMPP, a u slučaju WAMP-a php-ove je potrebno spremiti u folder WWW.  
